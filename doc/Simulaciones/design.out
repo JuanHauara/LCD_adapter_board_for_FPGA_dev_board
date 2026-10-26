@@ -1,0 +1,100 @@
+****************************************************************************************************************************************
+***                                                                                                                                  ***
+*** Elements Version 9.20j (x64) - 26/10/2026 21:44                                                                                  ***
+*** Platform: Windows 10                                                                                                             ***
+*** Architecture: x64                                                                                                                ***
+*** Serial Number:                                                                                                                   ***
+*** User:                                                                                                                            ***
+***                                                                                                                                  ***
+*** TITLE:   * C:\Users\juanh\Documents\Altium\Projects\LCD_adapter_board_for_FPGA_dev_board\doc\Simulaciones\Ajuste_luz_fondo.wxsch***
+*** NETLIST: C:\Users\juanh\Documents\Altium\Projects\LCD_adapter_board_for_FPGA_dev_board\doc\Simulaciones\design.net               ***
+***                                                                                                                                  ***
+****************************************************************************************************************************************
+
+********************************************************************************
+***                                                                          ***
+***                                Input Deck                                ***
+***                                                                          ***
+********************************************************************************
+
+.options bjtPSpiceSubNode=1
+.options allowdivzero=1
+.options initCondMode=2
+.options icres=0.002
+.options inhibitAttoISource=1
+#SIMETRIX
+X$VR1 R2_N R4_N VR1_Min  VR1$TP_POT pinnames: Max Wiper Min
+.subckt VR1$TP_POT 1 2 3
+R1 1 2 1000
+R2 2 3 0
+.ENDS
+R4 I1_N R4_N 5.6k
+.GRAPH R4_N axisType="auto" persistence=-1 curveLabel="VFB" analysis="tran|ac|dc" xLog="auto" yLog="auto"  nowarn=true GUID="1690c322-5b1e-4f8c-9f3f-51257fd34e11" disabled=false PROBEREF=Probe1  
+R3 VR1_Min 0 330
+I1 0 I1_N 348m
+R2 I1_N R2_N 120
+R1 I1_N 0 2.2
+*.tran 100m
+.dc I1 50m 400m 350.35035035035u
+
+********************************************************************************
+***                                                                          ***
+*** Starting DC Sweep analysis at 21:44                                      ***
+***                                                                          ***
+*** Analysis card: .dc I1 50m 400m 350.35035035035u                          ***
+***                                                                          ***
+********************************************************************************
+********************************************************************************
+***                                                                          ***
+***                            Simulation Options                            ***
+***                                                                          ***
+********************************************************************************
+RELTOL                    0.001
+ABSTOL                    1e-12
+VNTOL                     1e-06
+POINTTOL                  0.001
+TEMPERATURE               27C
+GMIN                      1e-12
+Matrix Solver             UF KLU Version 1.1
+
+
+
+Analysis statistics
+===================
+
+Nominal temperature = 27
+Operating temperature = 27
+Total iterations = 2002
+Transient iterations = 0
+Transient timepoints = 0
+Accepted timepoints = 0
+Total analysis time = 0.109
+Transient time = 0
+Matrix reordering time = 0
+L-U decomposition time = 0
+Matrix solve time = 0
+Load time = 0
+Transient L-U decomp time = 0
+Transient solve time = 0
+Circuit build time = 0.016
+Simulator initialise time = 0
+Data write time = 0
+Convergence test time = 0
+LTE time = 0
+JI2 Iterations = 2002
+Diag. GMIN stepping iterations = 0
+Junc. GMIN stepping iterations = 0
+Source stepping iterations = 0
+PTA iterations = 0
+Number of matrix fill ins = 0
+Number of initial matrix elements = 15
+Circuit equations = 6
+State vector size = 1
+Number of write buffer faults = 0
+
+Run statistics
+==============
+
+Netlist read in time = 0.031
+Total run time = 0.203 seconds
+Analysis concluded 26/10/2026 21:44

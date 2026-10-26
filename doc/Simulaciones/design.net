@@ -1,0 +1,16 @@
+* C:\Users\juanh\Documents\Altium\Projects\LCD_adapter_board_for_FPGA_dev_board\doc\Simulaciones\Ajuste_luz_fondo.wxsch
+*#SIMETRIX
+X$VR1 R2_N R4_N VR1_Min  VR1$TP_POT pinnames: Max Wiper Min
+.subckt VR1$TP_POT 1 2 3
+R1 1 2 1000
+R2 2 3 0
+.ENDS
+R4 I1_N R4_N 5.6k
+.GRAPH R4_N axisType="auto" persistence=-1 curveLabel="VFB" analysis="tran|ac|dc" xLog="auto" yLog="auto"  nowarn=true GUID="1690c322-5b1e-4f8c-9f3f-51257fd34e11" disabled=false PROBEREF=Probe1  
+R3 VR1_Min 0 330
+I1 0 I1_N 348m
+R2 I1_N R2_N 120
+R1 I1_N 0 2.2
+*.tran 100m
+.dc I1 50m 400m 350.35035035035u
+

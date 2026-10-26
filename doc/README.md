@@ -7,8 +7,8 @@ Circuito de corriente constante para el backlight del LCD **SH101JGI40-01017W-03
 ## Condiciones de diseño
 
 - Entrada: **5 V ±5 %**. Reservar aproximadamente **1 A**.
-- Backlight: hasta **11 V** entre VLED+ y VLED−; la salida suma unos 0,2 V de sensado.
-- Corriente: **90,9 a 261,1 mA nominales**, con PWM al 100 %.
+- Backlight: hasta **11 V** entre VLED+ y VLED−; la salida suma unos 0.2 V de sensado.
+- Corriente: **90.9 a 261.1 mA nominales**, con PWM al 100 %.
 
 ## Componentes
 
@@ -17,14 +17,14 @@ Referencias funcionales; adaptar los designadores al esquemático.
 | Elemento | Valor o modelo | Requisitos |
 |---|---|---|
 | U1 | **TPS61165DBVR** | SOT-23 de 6 pines. |
-| L1 | **22 µH**, blindado | Isat ≥1,5 A, preferiblemente 2 A; Irms ≥1 A; DCR ≤0,15 Ω; inductancia efectiva ≥13,2 µH en funcionamiento. |
+| L1 | **22 µH**, blindado | Isat ≥1.5 A, preferiblemente 2 A; Irms ≥1 A; DCR ≤0.15 Ω; inductancia efectiva ≥13.2 µH en funcionamiento. |
 | D1 | **Vishay SS26SHE3_B/H** | Schottky 60 V / 2 A, SMA, LCSC **C511359**. |
 | C1A, C1B | **2 × 10 µF / 16 V**, X5R, 0805 | En paralelo entre +5 V y GND. |
 | C4 | **100 nF / 16 V**, X7R, 0805 | Desacoplo junto a VIN y GND del integrado. |
-| C2A, C2B | **2 × 4,7 µF / 50 V**, X7R, 1206 | Entre VLED+ y GND. Capacidad efectiva conjunta ≥4,7 µF a 11,2 V, incluyendo tolerancia y temperatura. |
+| C2A, C2B | **2 × 4.7 µF / 50 V**, X7R, 1206 | Entre VLED+ y GND. Capacidad efectiva conjunta ≥4.7 µF a 11.2 V, incluyendo tolerancia y temperatura. |
 | C3 | **220 nF / 16 V**, X7R, 0805 | Entre COMP y GND; compensación del regulador. |
-| R0 | **1.8 Ω**, 0805, 0,125 W | Siempre conectada entre FB y GND. |
-| R1 a R4 | **5 × 6.8 Ω**, 0805, 0,125 W | Cada resistencia en serie con su jumper; ramas en paralelo con R0. |
+| R0 | **1.8 Ω**, 0805, 0.125 W | Siempre conectada entre FB y GND. |
+| R1 a R4 | **5 × 6.8 Ω**, 0805, 0.125 W | Cada resistencia en serie con su jumper; ramas en paralelo con R0. |
 | RPD | **100 kΩ** | CTRL a GND: apagado mientras el MCU no controla la señal. |
 
 **C2A y C2B debe ser de 50 V:** con LED desconectado, la protección actúa alrededor de 38 V.
