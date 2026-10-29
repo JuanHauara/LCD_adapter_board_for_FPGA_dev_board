@@ -1,0 +1,7 @@
+Added Component: Designator=R1(resistor 0603)
+Add component (AddParameter): Name = "LCSC part"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100k"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetQ1_1 Pin=R1-1
+Added Pin To Net: NetName=Vdd_5V Pin=R1-2
+Added Member To Class: ClassName=LCD_RGB_parallel_connector Member=Component R1 Resistor
