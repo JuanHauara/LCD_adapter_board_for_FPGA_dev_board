@@ -1,0 +1,16 @@
+Change Component Footprint: Designator=S1 Old Footprint=TL36WW15050 New Footprint=Slide switch 2mm pitch
+Add Pin To Net: Unknown Pin: Pin Trimpot1-CCW
+Add Pin To Net: Unknown Pin: Pin Trimpot1-CW
+Add Pin To Net: Unknown Pin: Pin Trimpot1-W
+Add Pin To Net: Unknown Pin: Pin Trimpot2-CCW
+Add Pin To Net: Unknown Pin: Pin Trimpot2-CW
+Add Pin To Net: Unknown Pin: Pin Trimpot2-W
+Add Pin To Net: Unknown Pin: Pin Trimpot3-CCW
+Add Pin To Net: Unknown Pin: Pin Trimpot3-CW
+Add Pin To Net: Unknown Pin: Pin Trimpot3-W
+Add Pin To Net: Unknown Pin: Pin Trimpot4-CCW
+Add Pin To Net: Unknown Pin: Pin Trimpot4-CW
+Add Pin To Net: Unknown Pin: Pin Trimpot4-W
+Add Pin To Net: Unknown Pin: Pin Trimpot5-CCW
+Add Pin To Net: Unknown Pin: Pin Trimpot5-CW
+Add Pin To Net: Unknown Pin: Pin Trimpot5-W

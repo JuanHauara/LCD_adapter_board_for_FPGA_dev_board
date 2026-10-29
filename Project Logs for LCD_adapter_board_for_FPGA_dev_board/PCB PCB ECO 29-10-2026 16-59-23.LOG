@@ -1,0 +1,25 @@
+Added Component: Designator=Trimpot5(trim pot 3296W)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://bourns.com/2/search.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "20k"; VariantName = "[No Variations]"
+Added Component: Designator=Trimpot?(trim pot 3296W)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://bourns.com/2/search.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5k"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin Trimpot1-CCW
+Add Pin To Net: Unknown Pin: Pin Trimpot1-CW
+Add Pin To Net: Unknown Pin: Pin Trimpot1-W
+Add Pin To Net: Unknown Pin: Pin Trimpot3-CCW
+Add Pin To Net: Unknown Pin: Pin Trimpot3-CW
+Add Pin To Net: Unknown Pin: Pin Trimpot3-W
+Add Pin To Net: Unknown Pin: Pin Trimpot4-CCW
+Add Pin To Net: Unknown Pin: Pin Trimpot4-CW
+Add Pin To Net: Unknown Pin: Pin Trimpot4-W
+Added Pin To Net: NetName=FPC_PIN47 Pin=Trimpot5-1
+Added Pin To Net: NetName=NetIC3_4 Pin=Trimpot5-2
+Added Pin To Net: NetName=FPC_PIN47 Pin=Trimpot5-3
+Added Pin To Net: NetName=FPC_PIN47 Pin=Trimpot?-1
+Added Pin To Net: NetName=NetR11_2 Pin=Trimpot?-2
+Added Pin To Net: NetName=NetR11_2 Pin=Trimpot?-3
+Added Member To Class: ClassName=LCD_power_supplies Member=Component Trimpot5 Multiturn
+Added Member To Class: ClassName=LCD_power_supplies Member=Component Trimpot? Multiturn

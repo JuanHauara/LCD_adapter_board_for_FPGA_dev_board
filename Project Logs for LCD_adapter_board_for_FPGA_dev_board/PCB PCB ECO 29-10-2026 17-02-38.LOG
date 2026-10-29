@@ -1,0 +1,9 @@
+Added Pin To Net: NetName=NetR9_1 Pin=Trimpot1-1
+Added Pin To Net: NetName=NetR7_2 Pin=Trimpot1-2
+Added Pin To Net: NetName=NetIC1_6 Pin=Trimpot1-3
+Added Pin To Net: NetName=NetC23_1 Pin=Trimpot3-1
+Added Pin To Net: NetName=NetTrimpot3_CW Pin=Trimpot3-2
+Added Pin To Net: NetName=NetTrimpot3_CW Pin=Trimpot3-3
+Added Pin To Net: NetName=NetC33_1 Pin=Trimpot4-1
+Added Pin To Net: NetName=AVDD_9.6V-FPC_PIN43 Pin=Trimpot4-2
+Added Pin To Net: NetName=AVDD_9.6V-FPC_PIN43 Pin=Trimpot4-3
