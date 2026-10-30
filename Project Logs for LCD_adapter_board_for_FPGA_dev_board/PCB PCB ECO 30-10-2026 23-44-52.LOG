@@ -1,0 +1,10 @@
+Change Component Comment : Designator=Trimpot1 Old Comment=Trim pot New Comment=Multiturn
+Change Component Designator: OldDesignator=Trimpot1 NewDesignator=Pot1
+Change Component Designator: OldDesignator=Trimpot2 NewDesignator=Pot2
+Change Component Designator: OldDesignator=Trimpot3 NewDesignator=Pot3
+Change Component Designator: OldDesignator=Trimpot4 NewDesignator=Pot4
+Change Component Designator: OldDesignator=Trimpot5 NewDesignator=Pot5
+Change Net Name : Old Net Name=NetR7_2 New Net Name=NetPot1_CW
+Change Net Name : Old Net Name=NetR9_1 New Net Name=NetPot1_CCW
+Change Net Name : Old Net Name=NetR11_2 New Net Name=NetPot2_CW
+Change Net Name : Old Net Name=NetTrimpot3_CW New Net Name=NetPot3_CW
