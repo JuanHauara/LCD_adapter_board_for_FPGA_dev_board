@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=GND Pin=Pot5-1
+Removed Pin From Net: NetName=NetIC3_4 Pin=Pot5-2
+Removed Pin From Net: NetName=GND Pin=Pot5-3
+Removed Member From Class: ClassName=LCD_power_supplies Member=Pot5
+Added Component: Designator=Pot?(trim pot 3296W)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://bourns.com/2/search.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "20k"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=Pot?-1
+Added Pin To Net: NetName=NetIC3_4 Pin=Pot?-2
+Added Pin To Net: NetName=NetIC3_4 Pin=Pot?-3
+Added Member To Class: ClassName=LCD_power_supplies Member=Component Pot? Multiturn
