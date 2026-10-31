@@ -1,0 +1,26 @@
+Added Component: Designator=IC2(TSSOP24-Thermal_pad)
+Added Pin To Net: NetName=NetC17_1 Pin=IC2-1
+Added Pin To Net: NetName=NetC30_2 Pin=IC2-2
+Added Pin To Net: NetName=NetC31_2 Pin=IC2-3
+Added Pin To Net: NetName=Vdd_5V_LCD Pin=IC2-4
+Added Pin To Net: NetName=NetC25_2 Pin=IC2-5
+Added Pin To Net: NetName=NetC25_2 Pin=IC2-6
+Added Pin To Net: NetName=GND Pin=IC2-7
+Added Pin To Net: NetName=GND Pin=IC2-8
+Added Pin To Net: NetName=AVDD_9.6V-FPC_PIN43 Pin=IC2-9
+Added Pin To Net: NetName=VCOM Pin=IC2-10
+Added Pin To Net: NetName=NetC33_1 Pin=IC2-11
+Added Pin To Net: NetName=NetIC2_12 Pin=IC2-12
+Added Pin To Net: NetName=Vdd_5V_LCD Pin=IC2-13
+Added Pin To Net: NetName=NetC29_1 Pin=IC2-14
+Added Pin To Net: NetName=EN_LDO Pin=IC2-15
+Added Pin To Net: NetName=NetC26_2 Pin=IC2-16
+Added Pin To Net: NetName=NetC22_2 Pin=IC2-17
+Added Pin To Net: NetName=NetC20_1 Pin=IC2-18
+Added Pin To Net: NetName=GND Pin=IC2-19
+Added Pin To Net: NetName=NetC23_1 Pin=IC2-20
+Added Pin To Net: NetName=NetIC2_21 Pin=IC2-21
+Added Pin To Net: NetName=NetC27_1 Pin=IC2-22
+Added Pin To Net: NetName=NetC28_1 Pin=IC2-24
+Added Pin To Net: NetName=GND Pin=IC2-25
+Added Member To Class: ClassName=LCD_power_supplies Member=Component IC2 TPS65150
