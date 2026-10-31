@@ -71,11 +71,9 @@ Comprobar que los componentes montados coincidan con estas redes. Los rangos son
 
 | Salida | Red de realimentación | Rango nominal completo | Preajuste del trimpot |
 |---|---|---:|---:|
-| VS | Superior 56 kΩ; inferior 4,7 kΩ + 390 Ω + trimpot 5 kΩ | 7,51–13,75 V; intervalo previsto: 8–13 V | ≈2,50 kΩ para 9,6 V |
-| VGL | VGL–FBN: 390 kΩ; FBN–REF: 56 kΩ + trimpot 50 kΩ | −8,45 a −4,46 V; intervalo previsto: −8 a −5 V | ≈22,85 kΩ para −6 V |
-| VCOM | VS–IN: 56 kΩ; IN–GND: 39 kΩ + 2,2 kΩ + trimpot 5 kΩ | 4,069–4,340 V con VS = 9,6 V | ≈2,36 kΩ para 4,2 V |
-
-Al aumentar la resistencia del trimpot, VS disminuye, VGL se hace menos negativa y VCOM aumenta. El sentido horario depende del conexionado. Ajustar por la tensión medida.
+| VS | Superior 56 kΩ; inferior 4,7 kΩ + 390 Ω + trimpot 5 kΩ | 7,51V – 13,75V | ≈2,50 kΩ para 9,6 V |
+| VGL | VGL–FBN: 390 kΩ; FBN–REF: 56 kΩ + trimpot 50 kΩ | −8,45V a −4,46V | ≈22,85 kΩ para −6 V |
+| VCOM | VS–IN: 56 kΩ; IN–GND: 39 kΩ + 2,2 kΩ + trimpot 5 kΩ | 4,069V – 4,340V con VS = 9,6V | ≈2,36 kΩ para 4,2 V |
 
 VGH es fija: ≈17,98 V con 120 kΩ + 15 kΩ entre OUT y ADJ del MIC5235, y 10 kΩ entre ADJ y GND. Esta versión no tiene trimpot de VGH.
 
